@@ -1,0 +1,60 @@
+header {
+    background-color: rgb(17, 0, 255);
+font-size: larger;
+font-family:'Times New Roman', Times, serif;
+color: azure;
+text-align: center;
+}
+div1 {
+    color: royalblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+
+}
+div2 {  
+    color: blueviolet;
+    font-style: oblique;
+    font-family: fantasy;
+    font-size: 18px;
+}
+ul{
+    list-style-type: square;
+}
+
+footer{ 
+    background-color: black;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    
+}
+@media only screen and (max-width: 600px){
+header, div1, div2 {
+    padding: 10px;
+    }
+    h1, h2{
+        font-size: 18px;
+    }
+
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    header, div1, div2{
+        padding: 20px;
+    }
+    h1,h2 {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 1025px){
+    header, div1, div {
+        padding: 30px;
+    }
+    h1, h2 {
+        font-size: 28px;
+    }
+}
