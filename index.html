@@ -8,30 +8,66 @@
 </head>
 <body>
     <header>
-        <h1>Acerca de Mi </h1>
-
+        <h1 id="Titulo"> Acerca de Mi </h1>
+        <nav>
+            <ul>
+                <li><a href="#informacion-personal">Informacion personal</a></li><br>
+                <li><a href="#Contacto">Contacto</a>  </li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <div1 id="info-personal">
+    <section id="informacion-personal">
+        <div id="info-personal">
             <h2>Informacion personal</h2> 
-            <p>Nombre: Aguero Damian </p>
-            <p>Edad:21</p>
-            <p>Estoy estudiando una tecnicatura en desarrollo de software ya que es lo que me gusta y a lo que me gustaria dedicarme en un futuro</p>
-
-        </div1>
-        <div2 id="habilidades">
+            <p>Nombre: Aguero Damian 
+                <br>
+                <br> Edad:21 
+                <br>
+                <br> Estoy estudiando una tecnicatura superior en desarrollo de software ya que es lo que me gusta y a lo que me gustaria dedicarme en un futuro 
+            </p>
+            
+        </div>
+        <div id="habilidades">
             <h2>Habilidades</h2>
             <ul>
-                <li>Pyton basico</li>
+                <li>Python basico</li>
                 <li>JavaScript basico</li>
                 <li>HTML</li>
                 <li>CSS</li>
             </ul>
-        </div2>
-        <footer>
-            Copyright (c) 2023. Todos los derechos reservados
-        </footer>
-
+        </div>
     </section>
+    <section id="Educacion">
+        <li>Ipem 394 "Juana Manso"</li>
+        <li>Tecnicatura superior en desarrollo de software: Escuela superior de comercio(En proceso) </li>
+    </section>
+
+    <section id="Contacto">
+        <h5>Contacto</h5>
+        <form action="#" method="post">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="nombre"  name="nombre">
+        <br>
+        <br>
+        <label for="Correo">Correo:</label>
+        <input type="text" id="correo"  name="Correo">
+        <br>
+        <br>
+        <label for="Asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto">
+        <br>
+        <br>
+        <label for="Mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" cols="20" rows="4"></textarea><br>
+        <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+ <footer>
+Copyright (c) 2023. Todos los derechos reservados
+ </footer>
+
 </body>
+
+
 </html>
